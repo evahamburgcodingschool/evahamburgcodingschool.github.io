@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    /* width: 100%; */
+    margin: 0px;
+    background-image: url("1164586.jpg");
+    /* background-image: url("1164130.jpg");
+    background-image: url("1153362.jpg"); */
+    background-color: #97C4A0;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+   }
+.mainbody {
+    width: 500px;
+    height: 80%;
+    /* vertical-align: middle; */
+    margin: auto;
+    top: 20px;
+    padding: 15px;
+    /* background-color: #EDC3CB; */
+    background-image: url("6385.jpg");
+    background-size: cover;
+    border: 10px solid;
+    border-image: url(gold-frame.jpeg) 5% round;
+    border-color: gold;
+    background-clip: content-box;
+      /*was giving blank space right and before the frame*/
+    position: relative;
+}
+.mainbody:before {
+    content: "";
+    position: absolute;
+    left: 15px; right: 15px;  /*like the padding of mainbody*/
+    top: 15px; bottom: 15px;
+    /* background: #edc3cb82; */
+    background: rgba(220, 208, 161, 0.413);
+  }
+.innertext {
+    position: relative;
+    width: auto;
+    margin: auto;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: auto;
+}
+/* #first {
+    width: 500px;
+    height: 80%; 
+} */
+/* #first #second{
+    position: relative;
+    width: 430px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+} */
+@media (max-width: 600px) { 
+    .mainbody{
+        width: 400px; 
+    }
+    #h1 {
+        margin-left: 10% !important; 
+    }
+    #h1_klein {
+        margin-left: 45% !important; 
+    }
+}
+@font-face {
+    font-family: myFont;
+    src: url(SCRIPTIN.ttf);
+   }
+h1 {
+    font-family: myFont;
+    font-size: 40px;
+    margin-bottom: -20px;
+   }
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#h1 {
+    font-family: myFont;
+    font-size: 40px;
+    margin-top: -40px;
+    margin-bottom: -60px;
+    margin-left: 25%;
+    font-weight: bold;
+   }
+#h1_klein {
+    font-family: myFont;
+    font-size: 40px;
+    margin-top: -80px;
+    margin-left: 50%;
+    font-weight: bold;
+}  
+h1, p {
+    color: black;
+}
+a {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgreen;
+}
+small, ul {
+    font-family: sans-serif;
+}
+#homebutton {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px
+}
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+} 
+footer a {
+    color: black;
+}
+
+/* Background from: https://wallpaperaccess.com/
+!!!Attribution required!!!! Fabric from: <a href='https://www.freepik.com/photos/background'>Background photo created by lifeforstock - www.freepik.com</a>
+Frame from: https://www.ppt-backgrounds.net/simple-metallic-gold-textures-frame-slides-download.html
+Script from: https://www.1001fonts.com/handwritten-fonts.html */
