@@ -53,8 +53,11 @@ html, body {
     #h1_klein {
         margin-left: 45% !important; 
     }
+    footer {
+        width: 100%;
+    }
     footer small {
-        margin: auto !important;
+        text-align: center;
     }
 }
 @font-face {
