@@ -50,6 +50,9 @@ html, body {
     h1, #h1_top, #h1_bottom {
         font-size: 32px !important;
     }
+    #h1 {
+        right: 12px !important;
+    }
 }
 @font-face {
     font-family: myFont;
@@ -67,7 +70,7 @@ p {
 #h1 {
     width: 280px;
     position: absolute;
-    right: 60px;
+    right: 36px;
     white-space: nowrap;
     overflow: hidden;
    }
@@ -105,7 +108,9 @@ small, ul {
 }
 footer {
     font-family: sans-serif;
+    width: 100%;
     text-align: center;
+    margin: auto;
     margin-top: 20px;
 } 
 footer a {
