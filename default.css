@@ -44,7 +44,8 @@ html, body {
 @media only screen and (max-width: 600px) { 
     .mainbody{
         width: 400px; 
-        height: 90%;
+        height: 96%;
+        margin: auto !important;
     }
     #h1 {
         margin-left: 10% !important; 
@@ -53,7 +54,7 @@ html, body {
         margin-left: 45% !important; 
     }
     footer small {
-        text-align: center;
+        margin: auto;
     }
 }
 @font-face {
