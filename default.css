@@ -50,10 +50,6 @@ html, body {
     h1, #h1_top, #h1_bottom {
         font-size: 32px !important;
     }
-    footer {
-        width: 90%;
-        margin: auto;
-    }
 }
 @font-face {
     font-family: myFont;
