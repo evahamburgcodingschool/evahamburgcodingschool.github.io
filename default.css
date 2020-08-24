@@ -1,5 +1,5 @@
 html, body {
-    min-height: 100vh;
+    height: 100vh;
     /* width: 100%; */
     margin: 0px;
     background-image: url("1164586.jpg");
@@ -10,12 +10,10 @@ html, body {
     background-repeat: repeat;
     background-size: cover;
    }
-#page-container {
-    position: relative;
-  }
+   
 .mainbody {
     width: 500px;
-    min-height: 512px;
+    height: 80%;
     margin: auto;
     top: 20px;
     padding: 15px;
@@ -38,7 +36,7 @@ html, body {
     position: relative;
     width: auto;
     margin: auto;
-    height: 512px;
+    height: 100%;
     padding-left: 40px;
     padding-right: 40px;
     overflow: auto;
@@ -111,9 +109,8 @@ footer {
     font-family: sans-serif;
     text-align: center;
     float: center;
-    margin-top: 20px;
+    margin-top: 40px;
 } 
 footer a {
     color: black;
 }
-
