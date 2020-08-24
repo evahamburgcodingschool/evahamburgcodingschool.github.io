@@ -44,7 +44,7 @@ html, body {
 @media only screen and (max-width: 600px) { 
     .mainbody{
         width: 400px; 
-        height: 92%;
+        /* height: 92%; */
         margin: auto;
     }
     h1, #h1_top, #h1_bottom {
