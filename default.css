@@ -54,7 +54,8 @@ html, body {
         margin-left: 45% !important; 
     }
     footer {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
     footer small {
         text-align: center;
