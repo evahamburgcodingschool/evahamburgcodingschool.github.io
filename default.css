@@ -43,7 +43,7 @@ html, body {
 }
 @media only screen and (max-width: 600px) { 
     .mainbody{
-        width: 400px; 
+        width: 100%; 
         height: 92%;
         margin: auto;
     }
