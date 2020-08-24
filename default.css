@@ -13,7 +13,6 @@ html, body {
 .mainbody {
     width: 500px;
     height: 80%;
-    /* vertical-align: middle; */
     margin: auto;
     top: 20px;
     padding: 15px;
@@ -24,7 +23,6 @@ html, body {
     border-image: url(gold-frame.jpeg) 5% round;
     border-color: gold;
     background-clip: content-box;
-      /*was giving blank space right and before the frame*/
     position: relative;
 }
 .mainbody:before {
@@ -32,7 +30,6 @@ html, body {
     position: absolute;
     left: 15px; right: 15px;  /*like the padding of mainbody*/
     top: 15px; bottom: 15px;
-    /* background: #edc3cb82; */
     background: rgba(220, 208, 161, 0.413);
   }
 .innertext {
@@ -44,18 +41,7 @@ html, body {
     padding-right: 40px;
     overflow: auto;
 }
-/* #first {
-    width: 500px;
-    height: 80%; 
-} */
-/* #first #second{
-    position: relative;
-    width: 430px;
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-} */
-@media (max-width: 600px) { 
+@media only screen and (max-width: 600px) { 
     .mainbody{
         width: 400px; 
     }
@@ -82,7 +68,7 @@ p {
 #h1 {
     font-family: myFont;
     font-size: 40px;
-    margin-top: -40px;
+    margin-top: -24px;
     margin-bottom: -60px;
     margin-left: 25%;
     font-weight: bold;
