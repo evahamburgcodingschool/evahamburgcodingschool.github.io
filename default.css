@@ -45,7 +45,7 @@ html, body {
     .mainbody{
         width: 400px; 
         height: 96%;
-        margin: auto !important;
+        margin: auto;
     }
     #h1 {
         margin-left: 10% !important; 
@@ -54,7 +54,7 @@ html, body {
         margin-left: 45% !important; 
     }
     footer small {
-        margin: auto;
+        margin: auto !important;
     }
 }
 @font-face {
