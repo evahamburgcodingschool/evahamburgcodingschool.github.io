@@ -19,7 +19,6 @@ html, body {
     margin: auto;
     top: 20px;
     padding: 15px;
-    /* background-color: #EDC3CB; */
     background-image: url("6385.jpg");
     background-size: cover;
     border: 10px solid;
@@ -47,7 +46,6 @@ html, body {
 @media only screen and (max-width: 600px) { 
     .mainbody{
         width: 400px; 
-        /* height: 92%; */
         margin: auto;
     }
     h1, #h1_top, #h1_bottom {
@@ -119,7 +117,3 @@ footer a {
     color: black;
 }
 
-/* Background from: https://wallpaperaccess.com/
-!!!Attribution required!!!! Fabric from: <a href='https://www.freepik.com/photos/background'>Background photo created by lifeforstock - www.freepik.com</a>
-Frame from: https://www.ppt-backgrounds.net/simple-metallic-gold-textures-frame-slides-download.html
-Script from: https://www.1001fonts.com/handwritten-fonts.html */
