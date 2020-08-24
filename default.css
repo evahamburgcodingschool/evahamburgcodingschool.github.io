@@ -43,7 +43,7 @@ html, body {
 }
 @media only screen and (max-width: 600px) { 
     .mainbody{
-        width: 100%; 
+        width: 400px; 
         height: 92%;
         margin: auto;
     }
@@ -69,9 +69,9 @@ p {
     font-size: 18px;
 }
 #h1 {
-    width: 60%;
+    width: 280px;
     position: absolute;
-    right: 20px;
+    right: 60px;
     white-space: nowrap;
     overflow: hidden;
    }
