@@ -21,7 +21,7 @@ html, body {
     background-size: cover;
     border: 10px solid;
     border-image: url(gold-frame.jpeg) 5% round;
-    border-color: gold;
+    border-color: darkgoldenrod;
     background-clip: content-box;
     position: relative;
 }
